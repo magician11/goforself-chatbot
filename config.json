@@ -1,0 +1,5 @@
+{
+  "pipeline": "spacy_sklearn",
+  "path" : "./ai",
+  "data" : "./training-data/goforself-training.md"
+}
