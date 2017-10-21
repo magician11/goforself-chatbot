@@ -3,6 +3,7 @@ const https = require("https");
 const rpn = require("request-promise-native");
 const fs = require("fs");
 const bodyParser = require("body-parser");
+const config = require("./ssl-config.json");
 
 const app = express();
 
@@ -41,10 +42,11 @@ const welcomeMesssage = `Go For Self bot server started at ${new Date().toString
 
 if (environment === "production") {
   // encrypt connections
+  const sslPath = config.sslPath;
   const sslOptions = {
-    key: fs.readFileSync("/etc/letsencrypt/live/nodesrvr.com/privkey.pem"),
-    cert: fs.readFileSync("/etc/letsencrypt/live/nodesrvr.com/fullchain.pem"),
-    ca: fs.readFileSync("/etc/letsencrypt/live/nodesrvr.com/chain.pem")
+    key: fs.readFileSync(`${sslPath}privkey.pem`),
+    cert: fs.readFileSync(`${sslPath}fullchain.pem`),
+    ca: fs.readFileSync(`${sslPath}chain.pem`)
   };
 
   // startup the https server
