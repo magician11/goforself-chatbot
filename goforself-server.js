@@ -2,10 +2,12 @@ const express = require("express");
 const https = require("https");
 const rpn = require("request-promise-native");
 const fs = require("fs");
+const cors = require("cors");
 const bodyParser = require("body-parser");
 const config = require("./ssl-config.json");
 
 const app = express();
+app.use(cors());
 
 // start up the port based on the environment it's being run in (NODE_ENV)
 const environment = app.get("env");
