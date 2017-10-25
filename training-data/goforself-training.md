@@ -23,6 +23,11 @@
 - you hungry?
 - have you eaten anything yet?
 
+## intent:request-time
+- What's the time?
+- What time is it?
+- Hey, can you tell me what the time is please?
+
 ## intent:general-question
 - what do you think about [global warming](question-focus)?
 - how do you feel about [artificial intelligence](question-focus)?
