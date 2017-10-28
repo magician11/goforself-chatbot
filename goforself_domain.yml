@@ -1,6 +1,6 @@
 slots:
   location:
-    type: list
+    type: text
 
 intents:
  - greet
@@ -11,19 +11,9 @@ intents:
 entities:
  - place_name
 
-templates:
-  utter_greet:
-    - hey there!
-  utter_goodbye:
-    - see ya!
-  utter_default:
-    - not really sure what to do with that..
-  utter_youarewelcome:
-    - you're very welcome
-
 actions:
-  - utter_default
-  - utter_greet
-  - utter_goodbye
-  - utter_youarewelcome
-  - examples.concerts.actions.ActionShowTime
+  - default
+  - greet
+  - goodbye
+  - youarewelcome
+  - show_time
