@@ -24,9 +24,10 @@
 - have you eaten anything yet?
 
 ## intent:request-time
-- What's the time?
-- What time is it?
-- Hey, can you tell me what the time is please?
+- what's the time?
+- what time is it?
+- hey, can you tell me what the time is please?
+- what is the time in [London](place_name) right now?
 
 ## intent:general-question
 - what do you think about [global warming](question-focus)?
