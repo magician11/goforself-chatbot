@@ -5,7 +5,7 @@
 - hi there
 - hi
 
-## intent:general-check-in
+## intent:general_checkin
 - how are you?
 - how are ya?
 - you ok?
@@ -19,21 +19,22 @@
 - what's the weather like today in [budapest](location)?
 - what is the weather today in [rome](location)?
 
-## intent:food-check-in
+## intent:food_check_in
 - you hungry?
 - have you eaten anything yet?
 
 ## intent:request_time
-- What's the time?
-- What time is it?
-- Hey, can you tell me what the time is please?
+- what's the time?
+- what time is it?
+- hey, can you tell me what the time is please?
+- what is the time in [London](place_name) right now?
 
-## intent:general-question
+## intent:general_question
 - what do you think about [global warming](question-focus)?
 - how do you feel about [artificial intelligence](question-focus)?
 - do you like [sex](question-focus)?
 
-## intent:age-question
+## intent:age_question
 - how old are you?
 
 ## intent:farewell
