@@ -1,5 +1,6 @@
 {
   "pipeline": "spacy_sklearn",
-  "path" : "./ai",
-  "data" : "./training-data/goforself-training.md"
+  "path": "./ai",
+  "data": "./data/goforself_training.md",
+  "project": "Go For Self chatbot"
 }

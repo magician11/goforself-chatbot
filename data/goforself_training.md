@@ -23,7 +23,7 @@
 - you hungry?
 - have you eaten anything yet?
 
-## intent:request-time
+## intent:request_time
 - What's the time?
 - What time is it?
 - Hey, can you tell me what the time is please?
