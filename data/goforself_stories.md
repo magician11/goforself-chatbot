@@ -2,7 +2,11 @@
 * _greet
     - greet
 
-## happy
+## checkin
+* _general_checkin
+    - share_feelings
+
+## thank_you
 * _thank_you
     - you_are_welcome
 
@@ -12,5 +16,8 @@
 
 ## time_query
 * _request_time
+    - acknowledge
+    - ask_location
+* _state_location[location=london]
+    - acknowledge
     - get_time
-    - slot{"location": ["cape town", "auckland", "budapest"]}

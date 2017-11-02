@@ -4,18 +4,22 @@ slots:
 
 intents:
  - greet
+ - general_checkin
  - thank_you
- - farwell
+ - farewell
  - request_time
+ - state_location
 
 entities:
- - place_name
+ - location
 
 action_factory: remote
 
 actions:
-  - default
   - greet
   - goodbye
   - you_are_welcome
   - get_time
+  - share_feelings
+  - acknowledge
+  - ask_location

@@ -2,7 +2,14 @@
 
 A chatbot for Go For Self (https://goforself.me/)
 
-## Training the bot from our data
+## Using RASA
+
+Open source conversational AI. Looks promising, but quite difficult to setup.
+-- https://rasa.ai/
+
+The steps below are a succinct version of [this tutorial](https://core.rasa.ai/tutorial_remote.html).
+
+### Training the bot from our data
 
 To first train our NLU model, run:
 
@@ -12,7 +19,7 @@ Then to train the dialogue model, run:
 
 `python -m rasa_core.train -s data/goforself_stories.md -d goforself_domain.yml -o ai/dialogue`
 
-## Running the HTTP server
+### Running the HTTP server
 
 To run the HTTP server, run:
 
