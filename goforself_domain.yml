@@ -4,8 +4,8 @@ slots:
 
 intents:
  - greet
- - thankyou
- - goodbye
+ - thank_you
+ - farwell
  - request_time
 
 entities:
@@ -17,5 +17,5 @@ actions:
   - default
   - greet
   - goodbye
-  - youarewelcome
-  - show_time
+  - you_are_welcome
+  - get_time

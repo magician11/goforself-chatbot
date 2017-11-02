@@ -23,11 +23,16 @@
 - you hungry?
 - have you eaten anything yet?
 
+## intent:thank_you
+- thank you
+- thanks
+- thanks so much
+
 ## intent:request_time
 - what's the time?
 - what time is it?
 - hey, can you tell me what the time is please?
-- what is the time in [London](place_name) right now?
+- what is the time in [london](place_name) right now?
 
 ## intent:general_question
 - what do you think about [global warming](question-focus)?

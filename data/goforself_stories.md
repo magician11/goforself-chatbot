@@ -1,16 +1,16 @@
 ## greet
 * _greet
-    - utter_greet
+    - greet
 
 ## happy
-* _thankyou
-    - utter_youarewelcome
+* _thank_you
+    - you_are_welcome
 
 ## goodbye
-* _goodbye
-    - utter_goodbye
+* _farewell
+    - goodbye
 
 ## time_query
 * _request_time
-    - action_get_time
-    - slot{"location": ["Cape Town", "Auckland", "Budapest"]
+    - get_time
+    - slot{"location": ["cape town", "auckland", "budapest"]}
